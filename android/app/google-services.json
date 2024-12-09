@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740123472838",
+    "project_id": "medicine-ketiga",
+    "storage_bucket": "medicine-ketiga.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740123472838:android:9f2035b34fe13da3d438c7",
+        "android_client_info": {
+          "package_name": "com.example.medicine_ketiga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6T0ucRLThN0XN7IPO_9C14OHhbHReb_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
