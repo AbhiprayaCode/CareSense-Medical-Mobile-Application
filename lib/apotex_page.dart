@@ -2249,4 +2249,3 @@ class FavoritePage extends StatelessWidget {
     );
   }
 }
-

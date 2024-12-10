@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       // Disable the debug banner at the top-right corner of the app.
       debugShowCheckedModeBanner: false,
       // Set the title of the application.
-      title: 'Flutter App',
+      title: 'CareSense',
       // Define the app's theme (primary color for the app).
       theme: ThemeData(
         primarySwatch: Colors.blue, // The primary color for the app's theme.

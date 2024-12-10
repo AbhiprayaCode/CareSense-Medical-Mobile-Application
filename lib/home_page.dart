@@ -1,3 +1,4 @@
+
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -5,7 +6,7 @@ import 'db_helper.dart';
 import 'medicine_page.dart';
 import 'apotex_page.dart';
 import 'hospital_page.dart';
-import 'chatbox_page.dart';
+import 'pages/chat_page.dart';
 import 'login_page.dart';
 
 // HomePage widget takes an email parameter passed from the login or previous page
@@ -129,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                       context,
                       'Chatbox',
                       Icons.chat_bubble,
-                      ChatboxPage(),
+                      ChatPage(),
                       Colors.purple[200]!,
                     ),
                   ],
