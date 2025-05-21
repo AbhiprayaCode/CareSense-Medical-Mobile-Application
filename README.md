@@ -110,6 +110,7 @@ assets/
 config/
 ├── firebase_options.dart  # Konfigurasi Firebase
 └── env.dart               # Variabel lingkungan (API keys, dsb.)
+```
 
 ---
 
