@@ -11,7 +11,7 @@
 ---
 
 ## 🚀 Project Overview
-**CARESense** is a cross-platform mobile app built with **Flutter** and **Dart** to deliver digital medical services. The app offers:
+**CareSense** is a cross-platform mobile app built with **Flutter** and **Dart** to deliver digital medical services. The app offers:
 - **AI-powered Chatbot** for instant health advice  
 - **Medicine catalog** by disease category  
 - **Pharmacy & Hospital locators** with maps  
@@ -88,24 +88,28 @@ Designed to help users find reliable health information and care options in just
 
 ## 📁 Project Structure
 
+```bash
 lib/
-├── pages/
+├── models/              # Definisi class model data (Medicine, User, dsb.)
+├── services/            # API & auth service (api_service.dart, auth_service.dart)
+├── pages/               # Halaman utama aplikasi
 │   ├── home_page.dart
 │   ├── login_page.dart
 │   ├── register_page.dart
 │   ├── medicine_page.dart
-│   ├── apotex_page.dart
+│   ├── apotek_page.dart
 │   ├── hospital_page.dart
 │   └── chatbox_page.dart
-├── models/
-├── services/
-│   ├── api_service.dart
-│   └── auth_service.dart
-├── widgets/
-└── main.dart
+├── widgets/             # Widget reusable (custom button, card, dsb.)
+└── main.dart            # Entry point aplikasi
+
 assets/
-├── images/
-└── ...
+├── images/              # Gambar & ikon
+└── fonts/               # File font kustom
+
+config/
+├── firebase_options.dart  # Konfigurasi Firebase
+└── env.dart               # Variabel lingkungan (API keys, dsb.)
 
 ---
 
